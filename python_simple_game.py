@@ -22,8 +22,8 @@ BLACK = (0, 0, 0)
 
 # ボールの設定
 ball_radius = 10
-ball_speed_x = 5
-ball_speed_y = 5
+ball_speed_x = 13
+ball_speed_y = 13
 # ボールの位置とサイズを設定
 # Rectは四角形を表すクラスでその中にボールが収まるようになっている
 ball = pygame.Rect(width // 2, height // 2, ball_radius * 2, ball_radius * 2) 
